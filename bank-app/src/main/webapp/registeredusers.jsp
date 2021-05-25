@@ -95,13 +95,13 @@ if(block.equals("blocked")){
 	String trans1="user";
 
 %> 
-<td><a href="unblockuser.jsp?id2=<%=id1%> & trans=<%=trans1 %>">Unblock User</a></td>
+<td><a href="unblockuser.jsp?id2=<%=id1%>&trans=<%=trans1 %>">Unblock User</a></td>
 <%
 }
 else{
 	String trans1="user";
 %>
-<td><a href="blockuser.jsp?id2=<%=id1%> & trans=<%=trans1 %>">Block User</a></td>
+<td><a href="blockuser.jsp?id2=<%=id1%>&trans=<%=trans1 %>">Block User</a></td>
 <%
 }
 if(withdraw.equals("blocked")){

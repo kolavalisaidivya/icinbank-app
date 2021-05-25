@@ -157,7 +157,7 @@ align:center;
 <% 
  } else {
 %>
- <h2>Invalid User or Password <a href='userlogin.html'>try again</a></h2>
+ <h2>Invalid User or Password <a href='userlogin.jsp'>try again</a></h2>
 <%
  }
 %>

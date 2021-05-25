@@ -100,7 +100,7 @@ span.psw {
 
 <select name="type" id="type" required>
   <option value="Savings Account">Savings Account</option>
-  <option value="Personal Account">Personal Account</option>
+  <option value="Primary Account">Primary Account</option>
   <option value="Checking Account">Checking Account</option>
 </select><br/>  
     <label for="amount"><b>Withdrawl-amount</b></label>
@@ -207,7 +207,7 @@ span.psw {
 
 <select name="type" id="type" required>
   <option value="Savings Account">Savings Account</option>
-  <option value="Personal Account">Personal Account</option>
+  <option value="Primary Account">Primary Account</option>
   <option value="Checking Account">Checking Account</option>
 </select><br/>  
     <label for="amount"><b>Deposit-amount</b></label>
@@ -314,7 +314,7 @@ span.psw {
 
 <select name="type1" id="type" required>
   <option value="Savings Account">Savings Account</option>
-  <option value="Personal Account">Personal Account</option>
+  <option value="Primary Account">Primary Account</option>
   <option value="Checking Account">Checking Account</option>
 </select><br/>  
       <label for="name"><b>FullName of Receiver</b></label>
@@ -323,7 +323,7 @@ span.psw {
 
 <select name="type" id="type" required>
   <option value="Savings Account">Savings Account</option>
-  <option value="Personal Account">Personal Account</option>
+  <option value="Primary Account">Primary Account</option>
   <option value="Checking Account">Checking Account</option>
 </select><br/>  
     <label for="acctno"><b>Transfer-Account-No</b></label>

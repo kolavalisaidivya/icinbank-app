@@ -37,7 +37,7 @@ if (rs.next()) {
  else
  {
 	 int i1=0;
-	 ResultSet rs1 = st.executeQuery("select * from user where ( accounttype='"+type+"') and (accountno='"+acctno+"' and recipientname='"+name+"')");
+	 ResultSet rs1 = st.executeQuery("select * from user where ( accounttype='"+type+"') and (accountno='"+acctno+"' and name='"+name+"')");
     if(rs1.next()){
     	
     int x=rs1.getInt("id");

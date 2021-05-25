@@ -47,7 +47,7 @@ int i=st.executeUpdate("insert into user(username,password,accounttype,phoneno,d
 if(i>0){
 %>
 <h2>User Registration is Successful...You can login now!</h2>
-<a href="userlogin.html">Login Here</a>
+<a href="userlogin.jsp">Login Here</a>
 
 <%}
 else
